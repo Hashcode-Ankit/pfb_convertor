@@ -18,3 +18,21 @@ In this module we are trying to convert graph data to PFB format
     ```bash
     python main.py
     ```
+
+# Key Components:
+
+- Schema Definition: PFB-like schema supporting nodes and edges
+
+- Data Conversion: Simple in-memory dictionary → Avro serialization
+
+- Validation: Round-trip serialization/deserialization check
+
+- Visualization: Basic NetworkX graph visualization
+
+# Output:
+
+- Serialized Avro data (PFB-like format)
+
+- Validated deserialized data printed to console
+
+- Interactive graph visualization
